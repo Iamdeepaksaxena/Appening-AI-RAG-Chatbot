@@ -1,6 +1,10 @@
 # 🤖 Appening AI Knowledge Assistant
 RAG-based Agentic AI Knowledge Assistant built with LangGraph, ChromaDB, embeddings, and LLMs to answer questions strictly from the Agentic AI eBook, with retrieved context and confidence scores through a Streamlit chat interface.
 
+## 🚀 Live Demo
+
+[🔗 Try the Live AI RAG Chatbot](https://appening-ai-rag-chatbot-nv5c2hfy5a5zmah6lezcxy.streamlit.app/)
+
 ## Features
 
 - PDF document ingestion
