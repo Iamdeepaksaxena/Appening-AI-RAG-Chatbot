@@ -1,4 +1,4 @@
-# 🤖 Agentic AI Knowledge Assistant
+# 🤖 Appening AI Knowledge Assistant
 RAG-based Agentic AI Knowledge Assistant built with LangGraph, ChromaDB, embeddings, and LLMs to answer questions strictly from the Agentic AI eBook, with retrieved context and confidence scores through a Streamlit chat interface.
 
 ## Features
@@ -18,25 +18,11 @@ RAG-based Agentic AI Knowledge Assistant built with LangGraph, ChromaDB, embeddi
 
 ## Architecture
 
-    Agentic AI PDF
-          ↓
-       PDF Loader
-          ↓
-      Text Chunking
-          ↓
-    Hugging Face Embeddings
-          ↓
-        ChromaDB
-          ↓
-       Retriever
-          ↓
-       LangGraph
-       ↙       ↘
-    Retrieve   Generate
-       ↓         ↓
-    Relevant   Groq LLM
-     Chunks      ↓
-       └──────→ Final Answer
+<p align="center">
+  <img src="./assests/Architecture.png" alt="Appening AI Knowledge Assistant Architecture" width="100%">
+</p>
+
+
 
 ## RAG Workflow
 
@@ -57,7 +43,7 @@ RAG-based Agentic AI Knowledge Assistant built with LangGraph, ChromaDB, embeddi
 
 ## Project Structure
 
-    Agentic-AI-Knowledge-Assistant/
+    Appening-AI-RAG-Chatbot/
     │
     ├── data/
     │   └── Ebook-Agentic-AI.pdf
@@ -74,6 +60,7 @@ RAG-based Agentic AI Knowledge Assistant built with LangGraph, ChromaDB, embeddi
     │   └── graph.py
     │
     ├── app.py
+    ├── streamlit.py
     ├── requirements.txt
     ├── .env
     └── README.md
